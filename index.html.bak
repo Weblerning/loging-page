@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loging file</title>
+</head>
+<body>
+	<h2>Log in here</h2>
+	<form action="action/index.html">
+		<label for="user_name">User name</label>
+		<input type="text" id="user_name" placeholder="Enter your user name" required > <br>
+		<label for="password">Password</label>
+		<input type="password" id="password" placeholder="Enter your password" required> <br>
+		<input type="reset" name="reset" value="reset" id="reset">
+		<input type="submit" id="sign_in" value="Sign in"> <br>
+		
+		<input type="checkbox" name="checkbox" id="reme">
+		<label for="reme">Remember</label> <br><br><br><br>
+		<a href="create an account/account.html">Create a new account</a>
+		
+	</form>
+	
+	
+</body>
+</html>
